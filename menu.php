@@ -7,7 +7,6 @@
 <style>
 
  body{
-  background-image: url("http://4.bp.blogspot.com/-VLLxoOK7j3c/VNLozitDOmI/AAAAAAAAASE/b_h0J1C2tMk/s1600/Galaxy%2BViolet%2BWallpaper%2B5.jpg");
   color: white; 
  }
 
@@ -85,29 +84,20 @@
   <a href="accueil.php">Home</a>
  
   <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()"> Sociétés
+    <button class="dropbtn" onclick="myFunction()"> Films
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="BlackStarCorp.php">BlackStar Corp.</a>
-      <a href="VadorSon.php">Vador & Son </a>
-      <a href="TheJediCompany.php"> The Jedi Company </a>
-      <a href="Chewbbatech.php"> Chewbba-tech </a>
-      <a href="PortmanIndustries.php"> Portman Industries </a>
-      <a href="R2D2Droid.php"> R2D2 & Droids </a>
+     </div> 
+   <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction2()"> Voyages
+      <i class="fa fa-caret-down"></i>
+    </button>
     </div>
   </div> 
-   <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction2()"> Secteurs de recherche
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction2()"> Restaurants
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content" id="myDropdown2">
-      <a href="technoplasma.php"> Technologies plasmatiques </a>
-      <a href="aerospatial.php"> Aérospatial </a>
-      <a href="progdroide.php"> Programmation de droïdes </a>
-      <a href="physiquetempo.php"> Physique temporelle </a>
-      <a href="balistiquelaser.php"> Balistique Laser </a>
-      <a href="mecagravi.php"> Mécanique gravitationnelle </a>
     </div>
   </div> 
    <a href="gestioncompte.php" class="droite" >Compte</a>
