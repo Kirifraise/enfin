@@ -6,4 +6,7 @@ if($surnom == "amour"){
 }elseif ($surnom == "coeur") {
   echo "Bonne journée petit " . $surnom;
 }
+elseif($surnom =="nounouille"){
+	echo "Que je t'aime ma ".$surnom." d'amour";
+}
 ?>
