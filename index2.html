@@ -26,8 +26,20 @@ body {
    background-image: url("ptitcoeur.jpg");
    background-size:100%;
 }
+img{
+  margin-left: 40%;
+  margin-top: 6%;
+}
 </style>
 </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#p1").on("click",function(){
+        alert("Je t'aime!");
+    });
+});
+</script>
 <body>
 
 <div id="coucou">Retrouvailles dans :</div>
@@ -65,5 +77,7 @@ var x = setInterval(function() {
 </script>
 
 <img style="position:relative;top:120px;" src="nous.jpg" alt="une photo de nous qui veut pas s'afficher :'("/>
+
+<p id="p1">♥</p>
 </body>
 </html>

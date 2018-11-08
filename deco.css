@@ -1,32 +1,53 @@
 h1{
+    margin-top: 15%;
     text-align: center;
     color : red;
     font-family: calibri;
+    font-size: 48px;
 }
 
+body {
+   background-image: url("ptitcoeur.jpg");
+   background-size:95%;
+}
 
 #texte{
+	float: left;
+	margin-top: 5%;
 	font-family: calibri;
-	color: blue;
-	font-size:40;
-	text-align: center;
-	height: 20%;
+	font-size: 20px;
+	color: white;
+	text-align: center ;
+	height: 200px;
+	width: 250px;
 	border-radius: 20%;
-	border-style: solid black 2px;
+	border: solid grey 2px;
+	background-color: purple;
+	margin-left:25%;
+	padding-top: 20px;
 }
 
 select{
 	background-color: black;
 	color: white;
-}
+	height: 20px;}
 
-form{
-	margin-left: 42%;
-	padding: 2%;
-}
+#photo{
+	float: right;
+	margin-right: 25%;
+	margin-top: 3%;
+	}
 
 img{
-	width: 20%;
-	height: 20%;
-	margin-left: 40%;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+input{
+	border-radius: 10%;
+	height: 35px;}
+#btn{
+	margin-top: 25%;
+    text-align: center;
 }
